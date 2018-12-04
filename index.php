@@ -62,7 +62,7 @@ if(empty($pass) || strlen($pass) > 100){
                 </div>
                 <div class='conteudo2'>
                     <h1 class='mt-2'>é seguro?</h1>
-                    <p class='text-justify mr-3 font-italic'>Sim. Não guardamos nenhuma senha inserida, não utilizamos Bancos de dados, apenas verificamos a existência de sua senha em nossas wordlist.<br><a href='github.io/passvuln.me'>clique aqui</a> e veja nosso codigo-fonte.</p>
+                    <p class='text-justify mr-3 font-italic'>Sim. Não guardamos nenhuma senha inserida, não utilizamos Bancos de dados, apenas verificamos a existência de sua senha em nossas wordlist.<br><a href='https://github.com/Joao-b4/PassVuln'>clique aqui</a> e veja nosso codigo-fonte.</p>
                 </div>
             </div>
             <footer>
@@ -120,7 +120,7 @@ if(count($passCount) != 0){ //valida
                   </div>
                   <div class='conteudo2'>
                       <h1 class='mt-2'>é seguro?</h1>
-                      <p class='text-justify mr-3 font-italic'>Sim. Não guardamos nenhuma senha inserida, não utilizamos Bancos de dados, apenas verificamos a existência de sua senha em nossas wordlist.<br><a href='github.io/passvuln.me'>clique aqui</a> e veja nosso codigo-fonte.</p>
+                      <p class='text-justify mr-3 font-italic'>Sim. Não guardamos nenhuma senha inserida, não utilizamos Bancos de dados, apenas verificamos a existência de sua senha em nossas wordlist.<br><a href='https://github.com/Joao-b4/PassVuln'>clique aqui</a> e veja nosso codigo-fonte.</p>
                   </div>
               </div>
               <footer>
@@ -143,7 +143,7 @@ unset($pass);
             </div>
             <div class='conteudo2'>
                 <h1 class='mt-2'>é seguro?</h1>
-                <p class='text-justify mr-3 font-italic'>Sim. Não guardamos nenhuma senha inserida, não utilizamos Bancos de dados, apenas verificamos a existência de sua senha em nossas wordlist.<br><a href='github.io/passvuln.me'>clique aqui</a> e veja nosso codigo-fonte.</p>
+                <p class='text-justify mr-3 font-italic'>Sim. Não guardamos nenhuma senha inserida, não utilizamos Bancos de dados, apenas verificamos a existência de sua senha em nossas wordlist.<br><a href='https://github.com/Joao-b4/PassVuln'>clique aqui</a> e veja nosso codigo-fonte.</p>
             </div>
         </div>
         <footer>
