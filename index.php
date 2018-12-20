@@ -26,10 +26,13 @@
             <!-- JS Interno -->
                 <script src="js/master.js"></script>
                 <!-- Toast -->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+                    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
 
-                    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-                    <script src="vendor/toastr/toastr.min.js"></script>
-                    <link rel="stylesheet" href="vendor/toastr/toastr.min.css">
+                    <!-- <script src="vendor/toastr/toastr.min.js"></script>
+                    <link rel="stylesheet" href="vendor/toastr/toastr.min.css"> -->
+
                     <script type="text/javascript">
                     function testeAjax(){
                         var password = $("#pass").val();
