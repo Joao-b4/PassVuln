@@ -26,9 +26,9 @@
             <!-- JS Interno -->
                 <script src="js/master.js"></script>
                 <!-- Toast -->
-                    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-                    <script src="vendor/toastr/toastr.min.js"></script>
-                    <link rel="stylesheet" href="vendor/toastr/toastr.min.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+                <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
 
                     <script type="text/javascript">
                     function testeAjax(){
