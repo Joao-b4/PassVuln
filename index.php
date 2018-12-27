@@ -52,7 +52,7 @@
                 <h1 class="pt-5">PassVuln.me</h1>
                 <div class="form-group mx-auto pt-4 formt" style="">
                     <input type="password" class="form-control pass inpt" name="pass" id="pass" required="required" value="" placeholder="Sua Senha..">
-                    <input type="button" class="mx-auto form-control btn btn-outline-danger testar mt-3" onclick="testeAjax()" id="testar" name="testar" value="TESTAR" placeholder="testar">
+                    <input type="button" class="mx-auto form-control btn btn-outline-info testar mt-3" onclick="testeAjax()" id="testar" name="testar" value="TESTAR" placeholder="testar">
                     <div class="load-container load7 pt-3" id="loading">
                         <div class="loader"></div>
                     </div>

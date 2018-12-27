@@ -27,19 +27,19 @@ background-color: white
 }
 
 h1{
-    color: #c62828;
+    color: #17a2b8;
 }
 h1:hover{
-    color: #ff5f52;
+    color: #17a2c1;
 }
 a{
-    color: #c62828;
+    color: #17a2b8;
 }
 a:hover{
-    color: #ff5f52;
+    color: #17a2c1;
 }
 .menu{
-    background-image: url('../img/fundo.png');
+    background-image: url('../img/fundo2.svg');
     height: 350px;
     width: 100%;
     margin-top: -15px;
@@ -165,19 +165,19 @@ float: center;
   0%,
   80%,
   100% {
-    box-shadow: 0 2.5em 0 -1.3em red;
+    box-shadow: 0 2.5em 0 -1.3em #17a2a1;
   }
   40% {
-    box-shadow: 0 2.5em 0 0 #c62828;
+    box-shadow: 0 2.5em 0 0 #17a2b8;
   }
 }
 @keyframes load7 {
   0%,
   80%,
   100% {
-    box-shadow: 0 2.5em 0 -1.3em red;
+    box-shadow: 0 2.5em 0 -1.3em #17a2a1;
   }
   40% {
-    box-shadow: 0 2.5em 0 0 #c62828;
+    box-shadow: 0 2.5em 0 0 #17a2b8;
   }
 }
