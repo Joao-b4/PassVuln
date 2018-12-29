@@ -8,10 +8,10 @@
         <!-- TAGS Meta -->
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2 ,shrink-to-fit=no">
-            <meta name="theme-color" content="#c62828">
-            <meta name="apple-mobile-web-app-status-bar-style" content="#c62828">
-            <meta name="msapplication-navbutton-color" content="#c62828">
-            <meta name="description" content="Um Site Simples Para Você Testar a Equivalência da Sua Senha em Wordlists.">
+            <meta name="theme-color" content="#17a2b8">
+            <meta name="apple-mobile-web-app-status-bar-style" content="#17a2b8">
+            <meta name="msapplication-navbutton-color" content="#17a2b8">
+            <meta name="description" content="Um Site Simples Para Você Testar a Sua Senha em Wordlists.">
             <meta name="author" content="João Vítor dos Santos Fontoura">
 
         <!-- Tags link -->
@@ -47,11 +47,11 @@
                     </script>
     </head>
     <body>
-        <div class="menu">
+        <div class="menu shadow-lg">
             <center>
                 <h1 class="pt-5">PassVuln.me</h1>
-                <div class="form-group mx-auto pt-4 formt" style="">
-                    <input type="password" class="form-control pass inpt" name="pass" id="pass" required="required" value="" placeholder="Sua Senha..">
+                <div class="form-group mx-auto pt-4 formdiv" style="">
+                    <input type="password" class="form-control pass" name="pass" id="pass" required="required" value="" placeholder="Sua Senha..">
                     <input type="button" class="mx-auto form-control btn btn-outline-info testar mt-3" onclick="testeAjax()" id="testar" name="testar" value="TESTAR" placeholder="testar">
                     <div class="load-container load7 pt-3" id="loading">
                         <div class="loader"></div>
@@ -61,22 +61,22 @@
 
  </div>
         <div class='container mx-auto text-capitalize conteudo shadow-lg'>
-            <div class='conteudo1'>
+            <div class='conteudo2'>
                 <h1 class='mt-2'>Como Funciona?</h1>
-                <p class='text-justify font-italic'>Testamos a compatibilidade de sua senha em</br>relação á milhares de outras senhas ja categorizadas<br>nas grandes wordlists conhecidas e utilizadas em todo o mundo.</p>
+                <p class='text-justify font-italic'>Testamos a compatibilidade de sua senha em relação á milhares de outras senhas ja categorizadas nas grandes wordlists conhecidas e utilizadas em todo o mundo.</p>
             </div>
             <div class='conteudo2'>
                 <h1 class='mt-2'>é seguro?</h1>
                 <p class='text-justify mr-3 font-italic'>Sim. Não guardamos nenhuma senha inserida, não utilizamos Bancos de dados, apenas verificamos a existência de sua senha em nossas wordlist.<br><a href='https://github.com/Joao-b4/PassVuln'>clique aqui</a> e veja nosso codigo-fonte.</p>
             </div>
 
-            <div class='conteudo3'>
+            <div class='conteudo2'>
                 <h1 class='mt-2'>API</h1>
-                <p class='text-justify mr-3 font-italic'>Para utilizar nossa API,<a href="https://github.com/Joao-b4/PassVuln/blob/master/README.md">Clique Aqui</a>.<br></p>
+                <p class='text-justify mr-3 font-italic'>Para utilizar nossa API, <a href="https://github.com/Joao-b4/PassVuln/blob/master/README.md">Clique Aqui</a>.<br></p>
             </div>
         </div>
         <footer>
-            <center><a href='mailto:joaosfontoura555@gmail.com?subject=feedback'>joaosfontoura555@gmail.com </a><br><a href='https://joao-b4.github.io/'>Sobre<br>Contact me.</a></center>
+            <center><a href='mailto:joaosfontoura555@gmail.com?subject=feedback'>joaosfontoura555@gmail.com </a><br><a href='https://joao-b4.github.io/'>Contact me.</a></center>
         </footer>
     </body>
 </html>

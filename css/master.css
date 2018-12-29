@@ -1,14 +1,16 @@
+/* CSS from Desktop */
 body{
 height: 100%;
 width: 100%;
-background-color: white
+background-color: white;
+margin: 0;
 
 }
-
-.inpt{
- height: 50px;
+p{
+  margin: 2px;
 }
-.formt{
+
+.formdiv{
     width: 50%;
 }
 
@@ -18,16 +20,24 @@ background-color: white
     border-top: none;
     border-left:none;
     border-right: none;
+    border-color: white;
     outline: 0;
     box-shadow: 0 0 0 0;
-    color: white
+    color: white;
+    height: 50px;
+}
+.pass::-webkit-input-placeholder{
+  color: #3eaec1;
+  font-weight: bolder;
 }
 
 .testar{
     width:  80%;
     margin-bottom: 5%;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-weight: bold;
 }
-
 h1{
     color: #17a2b8;
 }
@@ -47,6 +57,7 @@ a:hover{
     margin-top: -15px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .conteudo{
@@ -58,19 +69,10 @@ a:hover{
     font-size: 18px;
 
 }
-.conteudo1{
-    height: 200px;
-    width: 40%;
-    float: left;
-}
 .conteudo2{
-    height: 200px;
-    width: 40%;
     float: right;
-}
-.conteudo3{
-    height: 200px;
-    width: 40%;
+    width: 30%;
+    margin: 15px;
 }
 
 .cf{
@@ -84,7 +86,8 @@ background-color: rgba(0, 0, 0, 0.03);
 float: center;
 }
 
-@media (max-width: 650px) {
+/* CSS from Mobile */
+@media (max-width: 790px) {
     .conteudo{
         height: 600px;
         width: 100%;
@@ -92,17 +95,11 @@ float: center;
         color: rgba(0, 0, 0, 0.6);
         font-family: serif;
         font-size: 14px;
-
-    }
-    .conteudo1{
-        height: 100px;
-        width: 40%;
-        float: center;
     }
     .conteudo2{
-        height: 100px;
-        width: 40%;
-        float: center;
+      float: inherit;
+      width: 100%;
+      margin: 2px;
     }
 
     footer{
@@ -112,6 +109,8 @@ float: center;
     float: center
     }
 }
+
+/* CSS from TV and Monitors */
 
 @media (min-width: 1800px){
     .menu{
