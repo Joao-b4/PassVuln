@@ -27,7 +27,7 @@ p{
     height: 50px;
 }
 .pass::-webkit-input-placeholder{
-  color: #3eaec1;
+  color: white;
   font-weight: bolder;
 }
 
